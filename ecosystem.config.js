@@ -3,7 +3,7 @@ module.exports = {
     name: 'main',
     script: './dist/main.js',
     // Options reference: https://pm2.io/doc/en/runtime/reference/ecosystem-file/
-    args: 'one two',
+    // args: 'one two',
     output: './logs/main.log',
     error: './logs/error-main.log',
     instances: 1,

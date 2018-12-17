@@ -9,9 +9,23 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es6",
-    "sourceMap": true,
+    "sourceMap": false,
     "outDir": "./dist",
-    "baseUrl": "./src"
+    "baseUrl": "./src",
+    "paths": {
+      "@keviswang/passport": [
+        "libs/passport"
+      ],
+      "@keviswang/jwt": [
+        "libs/jwt"
+      ],
+      "common/*": [
+        "common/*"
+      ],
+      "utils/*": [
+        "utils/*"
+      ]
+    }
   },
   "include": [
     "src/**/*"
