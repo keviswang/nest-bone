@@ -19,6 +19,9 @@
       "@keviswang/jwt": [
         "libs/jwt"
       ],
+      "@keviswang/core": [
+        "libs/core"
+      ],
       "common/*": [
         "common/*"
       ],
