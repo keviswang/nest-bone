@@ -1,9 +1,9 @@
 {
-  "name": "nest-bone",
-  "version": "1.1.0",
+  "name": "hr-admin",
+  "version": "1.0.0",
   "description": "bone framework with nestjs",
   "author": "Kevis Wang(keviswang@outlook.com)",
-  "license": "MIT",
+  "private": true,
   "scripts": {
     "format": "prettier --write \"src/**/*.ts\"",
     "start": "ts-node -r tsconfig-paths/register src/main.ts",
@@ -14,12 +14,13 @@
     "lint": "tslint -p tsconfig.json -c tslint.json",
     "migrate:create": "ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js migration:create",
     "migrate:generate": "ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js migration:generate",
-    "migrate": "cross-env NODE_ENV=production ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js migration:run",
+    "migrate": "ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js migration:run",
     "model:generate": "./node_modules/.bin/typeorm-model-generator"
   },
   "dependencies": {
     "@nestjs/common": "^5.5.0",
     "@nestjs/core": "^5.5.0",
+    "@nestjs/passport": "^5.1.0",
     "@nestjs/typeorm": "^5.2.2",
     "class-sanitizer": "^0.0.5",
     "class-transformer": "^0.2.0",

@@ -1,0 +1,9 @@
+export const CACHE_PERFIX = '__nestbone_cache_';
+export const INFO = CACHE_PERFIX + 'info';
+export const TAGS = CACHE_PERFIX + 'tags';
+export const HOT_ARTICLES = CACHE_PERFIX + 'hot-articles';
+export const SITEMAP = CACHE_PERFIX + 'sitemap';
+export const CONSTANTS = CACHE_PERFIX + 'constants';
+export const WALLPAPERS = CACHE_PERFIX + 'wallpapers';
+export const WALLPAPER_STORY = CACHE_PERFIX + 'wallpaper-story';
+export const TODAY_VIEWS = CACHE_PERFIX + 'today-views';

@@ -13,20 +13,26 @@
     "outDir": "./dist",
     "baseUrl": "./src",
     "paths": {
-      "@keviswang/passport": [
-        "libs/passport"
-      ],
-      "@keviswang/jwt": [
-        "libs/jwt"
-      ],
-      "@keviswang/core": [
-        "libs/core"
-      ],
-      "common/*": [
+      "@common/*": [
         "common/*"
       ],
-      "utils/*": [
+      "@utils/*": [
         "utils/*"
+      ],
+      "@helpers/*": [
+        "helpers/*"
+      ],
+      "@constants/*": [
+        "constants/*"
+      ],
+      "@interfaces/*": [
+        "interfaces/*"
+      ],
+      "@exceptions/*": [
+        "exceptions/*"
+      ],
+      "@filters": [
+        "filters/index"
       ]
     }
   },
